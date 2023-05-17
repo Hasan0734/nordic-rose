@@ -22,7 +22,10 @@ const Navbar = () => {
             <nav className=' container mx-auto px-6 2xl:px-0 border-b border-gray-400 '>
                 <div className='flex justify-between items-center'>
                     <div className=''>
-                        <img className='max-w-[217px] md:max-w-[250px] py-8' src='/logo/nordic-rose.png' />
+                        <img className='max-w-[217px] md:max-w-[250px] py-8' 
+                        src='/logo/nordic-rose.png' 
+                            alt='logo'
+                        />
                     </div>
                     <div>
                         <div className='hidden sm:block'>

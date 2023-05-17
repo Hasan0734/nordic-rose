@@ -37,7 +37,7 @@ const Footer = () => {
             </Marquee>
             <div className='mt-20 sm:mt-24 text-white max-w-[287px] sm:max-w-md mx-auto'>
                 <div className='flex justify-center px-5 sm:px-0'>
-                    <img src="/logo/nordic-rose-white.png" alt="" />
+                    <img src="/logo/nordic-rose-white.png" alt="logo" />
                 </div>
                 <div className='mt-8'>
                     <p className='text-xs sm:text-[16px] text-center font-normal'>
