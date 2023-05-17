@@ -16,12 +16,12 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+@layer{
+ .link{
+  @apply block py-8 uppercase text-[20px] font-medium tracking-widest relative
+ } 
+ .active-link{
+  @apply after:absolute after:left-0 after:w-full after:bottom-0 after:bg-gray-500 after:h-0.5
+ }
 }
